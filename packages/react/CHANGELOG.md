@@ -1,5 +1,22 @@
 # @assistant-ui/react
 
+## 0.15.14
+
+### Patch Changes
+
+- [#5760](https://github.com/assistant-ui/assistant-ui/pull/5760) [`a4ac7dd`](https://github.com/assistant-ui/assistant-ui/commit/a4ac7dd94e9992070310acddff5e29f4e0693340) - fix: release replay response readers after completion, cancellation, and errors ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#5764](https://github.com/assistant-ui/assistant-ui/pull/5764) [`47b9256`](https://github.com/assistant-ui/assistant-ui/commit/47b9256d417acda832cf93cd76f2c2714dd8ed6a) - fix: generate unique in-memory thread IDs ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#5789](https://github.com/assistant-ui/assistant-ui/pull/5789) [`d3fece3`](https://github.com/assistant-ui/assistant-ui/commit/d3fece3b17487edbbeeedb903f0e8075f82b2dd7) - feat: give the composer its draft back when a send never reached the backend. a runtime that rejects `onNew` with the new `MessageNotSentError` restores the text, quote, and attachments the composer cleared at dispatch time, as long as nothing has claimed the composer since. that guard and that outcome are the ones `cancelRun` already applies to a trailing user message, so whichever fires first keeps the composer, and of several drafts queued behind one turn only the most recent is still restorable. an edit composer closes at dispatch, so a rejected edit is not restored. ([@okisdev](https://github.com/okisdev))
+
+- [#5757](https://github.com/assistant-ui/assistant-ui/pull/5757) [`092585b`](https://github.com/assistant-ui/assistant-ui/commit/092585b6859eeca4d2947cbe858019f5a9d9e101) - fix: derive the suggestions scope from the thread so runtime-provided suggestions render through `ThreadPrimitive.Suggestions` ([#5529](https://github.com/assistant-ui/assistant-ui/issues/5529)) ([@okisdev](https://github.com/okisdev))
+
+- Updated dependencies [[`a90db30`](https://github.com/assistant-ui/assistant-ui/commit/a90db30dbf1c73eb2ba8cc587cf157b1a04ce541), [`d3fece3`](https://github.com/assistant-ui/assistant-ui/commit/d3fece3b17487edbbeeedb903f0e8075f82b2dd7), [`1e98bcf`](https://github.com/assistant-ui/assistant-ui/commit/1e98bcf3f406385f3c924521b73300c12898fea6), [`8bba3aa`](https://github.com/assistant-ui/assistant-ui/commit/8bba3aaadcae042b4750436e6aa62bbba4815dde), [`22fa20f`](https://github.com/assistant-ui/assistant-ui/commit/22fa20ffd1f0d192c417b12d4512dcffeab5161b), [`417efee`](https://github.com/assistant-ui/assistant-ui/commit/417efee92b48f3fac057d65200f85d4df8657fa0), [`1e1d52b`](https://github.com/assistant-ui/assistant-ui/commit/1e1d52bd2f08b8712764792a9d95b608cb365b64), [`f59d24b`](https://github.com/assistant-ui/assistant-ui/commit/f59d24b3ee7036c94bce7bc0a38f018574f50a69), [`092585b`](https://github.com/assistant-ui/assistant-ui/commit/092585b6859eeca4d2947cbe858019f5a9d9e101)]:
+  - @assistant-ui/core@0.3.13
+  - assistant-cloud@0.1.40
+  - @assistant-ui/store@0.3.9
+
 ## 0.15.13
 
 ### Patch Changes

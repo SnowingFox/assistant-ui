@@ -3593,7 +3593,7 @@ importers:
   packages/eve:
     dependencies:
       '@assistant-ui/core':
-        specifier: ^0.3.11
+        specifier: ^0.3.13
         version: link:../core
     devDependencies:
       '@assistant-ui/x-buildutils':
@@ -3739,10 +3739,10 @@ importers:
   packages/react:
     dependencies:
       '@assistant-ui/core':
-        specifier: ^0.3.12
+        specifier: ^0.3.13
         version: link:../core
       '@assistant-ui/store':
-        specifier: ^0.3.8
+        specifier: ^0.3.9
         version: link:../store
       '@assistant-ui/tap':
         specifier: ^0.9.11
@@ -3772,7 +3772,7 @@ importers:
         specifier: ^1.1.5
         version: 1.1.5(@types/react@19.2.18)(react@19.2.8)
       assistant-cloud:
-        specifier: ^0.1.39
+        specifier: ^0.1.40
         version: link:../cloud
       assistant-stream:
         specifier: ^0.3.37
@@ -3870,13 +3870,13 @@ importers:
         specifier: ^0.0.57
         version: 0.0.57
       '@assistant-ui/core':
-        specifier: ^0.3.10
+        specifier: ^0.3.13
         version: link:../core
       '@assistant-ui/react-generative-ui':
-        specifier: ^0.0.13
+        specifier: ^0.0.14
         version: link:../react-generative-ui
       '@assistant-ui/store':
-        specifier: ^0.3.8
+        specifier: ^0.3.9
         version: link:../store
       assistant-stream:
         specifier: ^0.3.36
@@ -4199,10 +4199,10 @@ importers:
   packages/react-ink-markdown:
     dependencies:
       '@assistant-ui/core':
-        specifier: ^0.3.12
+        specifier: ^0.3.13
         version: link:../core
       '@assistant-ui/store':
-        specifier: ^0.3.8
+        specifier: ^0.3.9
         version: link:../store
       markdansi:
         specifier: ^0.3.3
@@ -4448,10 +4448,10 @@ importers:
   packages/react-native:
     dependencies:
       '@assistant-ui/core':
-        specifier: ^0.3.10
+        specifier: ^0.3.13
         version: link:../core
       '@assistant-ui/store':
-        specifier: ^0.3.8
+        specifier: ^0.3.9
         version: link:../store
       '@assistant-ui/tap':
         specifier: ^0.9.11
@@ -4525,10 +4525,10 @@ importers:
   packages/react-opencode:
     dependencies:
       '@assistant-ui/core':
-        specifier: ^0.3.12
+        specifier: ^0.3.13
         version: link:../core
       '@assistant-ui/store':
-        specifier: ^0.3.8
+        specifier: ^0.3.9
         version: link:../store
       '@opencode-ai/sdk':
         specifier: ^1.18.15
@@ -4565,10 +4565,10 @@ importers:
   packages/react-pi:
     dependencies:
       '@assistant-ui/core':
-        specifier: ^0.3.12
+        specifier: ^0.3.13
         version: link:../core
       '@assistant-ui/store':
-        specifier: ^0.3.8
+        specifier: ^0.3.9
         version: link:../store
     devDependencies:
       '@assistant-ui/react':
@@ -4923,10 +4923,10 @@ importers:
   packages/vue:
     dependencies:
       '@assistant-ui/core':
-        specifier: ^0.3.12
+        specifier: ^0.3.13
         version: link:../core
       '@assistant-ui/store':
-        specifier: ^0.3.8
+        specifier: ^0.3.9
         version: link:../store
       '@assistant-ui/tap':
         specifier: ^0.9.11

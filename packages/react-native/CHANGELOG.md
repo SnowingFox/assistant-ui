@@ -1,5 +1,15 @@
 # @assistant-ui/react-native
 
+## 0.1.36
+
+### Patch Changes
+
+- [#5763](https://github.com/assistant-ui/assistant-ui/pull/5763) [`3ba4e4e`](https://github.com/assistant-ui/assistant-ui/commit/3ba4e4e9fdb3e8589566736bc5323199afe6984f) - fix: respect prevented composer key events ([@Kinfe123](https://github.com/Kinfe123))
+
+- Updated dependencies [[`a90db30`](https://github.com/assistant-ui/assistant-ui/commit/a90db30dbf1c73eb2ba8cc587cf157b1a04ce541), [`d3fece3`](https://github.com/assistant-ui/assistant-ui/commit/d3fece3b17487edbbeeedb903f0e8075f82b2dd7), [`1e98bcf`](https://github.com/assistant-ui/assistant-ui/commit/1e98bcf3f406385f3c924521b73300c12898fea6), [`22fa20f`](https://github.com/assistant-ui/assistant-ui/commit/22fa20ffd1f0d192c417b12d4512dcffeab5161b), [`417efee`](https://github.com/assistant-ui/assistant-ui/commit/417efee92b48f3fac057d65200f85d4df8657fa0), [`1e1d52b`](https://github.com/assistant-ui/assistant-ui/commit/1e1d52bd2f08b8712764792a9d95b608cb365b64), [`f59d24b`](https://github.com/assistant-ui/assistant-ui/commit/f59d24b3ee7036c94bce7bc0a38f018574f50a69), [`092585b`](https://github.com/assistant-ui/assistant-ui/commit/092585b6859eeca4d2947cbe858019f5a9d9e101)]:
+  - @assistant-ui/core@0.3.13
+  - @assistant-ui/store@0.3.9
+
 ## 0.1.35
 
 ### Patch Changes

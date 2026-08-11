@@ -1,5 +1,11 @@
 # @assistant-ui/store
 
+## 0.3.9
+
+### Patch Changes
+
+- [#5769](https://github.com/assistant-ui/assistant-ui/pull/5769) [`f59d24b`](https://github.com/assistant-ui/assistant-ui/commit/f59d24b3ee7036c94bce7bc0a38f018574f50a69) - fix: deliver `threadListItem.switchedTo` to default-scope listeners ([#5699](https://github.com/assistant-ui/assistant-ui/issues/5699)). the thread list item client now emits the switch from its own observed selection transition, after the flush that rebinds the derived scopes, instead of relaying the runtime's synchronous notification. scoped listeners now resolve their scope against the host's current client at delivery time, so a listener subscribed before a structural swap follows the scope's present binding; the notification manager re-reads the listener set at flush time per the documented live-set semantics. listeners that need a pinned instance subscribe on an id-scoped client instead. ([@okisdev](https://github.com/okisdev))
+
 ## 0.3.8
 
 ### Patch Changes
